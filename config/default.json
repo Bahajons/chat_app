@@ -1,4 +1,4 @@
 {
-    "jwtPrivateKey": "!@#$%^&*(BuSecret",
-    "db": "mongodb://127.0.0.1:27017/chat"
+  "jwtPrivateKey": "!@#$%^&*(BuSecret",
+  "db": "mongodb+srv://chatApp:chatapp@chatapp.f6uwrd2.mongodb.net/?retryWrites=true&w=majority"
 }
