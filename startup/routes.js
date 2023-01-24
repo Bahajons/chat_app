@@ -1,7 +1,8 @@
 const user = require('../routes/user')
 const login = require('../routes/login')
 const profile = require('../routes/profile')
-const express=require('express')
+const news = require('../routes/news')
+const express = require('express')
 const mongoose = require('mongoose')
 
 
@@ -11,5 +12,6 @@ module.exports = function (app) {
     app.use('/api/register', user)
     app.use('/api/login', login)
     app.use('/api/profile', profile)
+    app.use('/api/news', news)
     mongoose.set('strictQuery', false);
 }
